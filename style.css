@@ -1,23 +1,22 @@
 *{
-    list-style-type: none;
-    text-decoration: none;
-   align-items: center;
-   padding-top: 19px;
-   margin-left: 90px;
-   margin-right: 90px;
-   padding: auto;
-   text-align:center ;
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
 }
 
 body{
    background-color: hsl(0, 0%, 12%);
-   
+   list-style-type: none;
+   text-decoration: none;
+  align-items: center;
+  text-align:center ;
     color: hsl(0, 0%, 100%);
     
 }
 h5{
     color: hsl(75 94% 57%)  ;
     font-size: 17px;
+    padding: 10px;
 }
 
 ul li a{
@@ -28,9 +27,9 @@ ul li a{
     grid-row: 5;
     grid-gap: 20px;
      place-content: center;
-   padding: 20px 90px 20px 90px;
+   padding: 20px 90px;
   background-color: hsla(0, 3%, 6%, 0.712);
-    margin-right: 35px;
+    
 }
 
 div{
@@ -39,9 +38,10 @@ div{
 }
 p{
     Font-size: 14px;
+    padding: 10px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.gee { font-size: 11px; text-align: center; }
 attribution a { color: hsl(228, 45%, 44%); }
  
  
@@ -49,35 +49,22 @@ attribution a { color: hsl(228, 45%, 44%); }
       border-radius: 50%;
  }
 
-li a: hover,
+li a:hover,
 li a:focus
 {
     color: blue;
     background-color: gold;
+     
 }
+li a:visited{ color: red;}
     /* mobile*/
-@media screen and (min-width:357px){
-li a:hover{color:blue;
+@media screen and (min-device-width:357px){
+li a:hover
+li a:focus
+{color:green;
     background-color: gold;
 }
     
 }
 
-/*desktop*/
-
-   @media screen and (min-width :10240px) {
-   
-    li a:hover{color:red;
-        background-color: gold;
-        
-
-    }
-    .body{
-        background-image:url(fav.png);
-        margin-left: 250px;
-        margin-right: 250px;
-
-    }
-        
-    }
     
