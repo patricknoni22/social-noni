@@ -1,35 +1,27 @@
 *{
-padding: 0px;
-margin: 0px;
-box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+   align-items: center;
+   text-align: center;
 }
 
 body{
    background-color: hsl(0, 0%, 12%);
-   list-style-type: none;
-   text-decoration: none;
-  align-items: center;
-  text-align:center ;
     color: hsl(0, 0%, 100%);
-    
 }
 h5{
-    color: hsl(75 94% 57%)  ;
-    font-size: 17px;
-    padding: 10px;
+    color: hsl(75 94% 57%)
+    ;
 }
 
 ul li a{
      background-color:darkgrey;
     color:  hsl(0 , 0% , 100%);
-    display: grid;
-    grid-template-columns: 99px;
-    grid-row: 5;
-    grid-gap: 20px;
-     place-content: center;
-   padding: 20px 90px;
-  background-color: hsla(0, 3%, 6%, 0.712);
-    
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     padding: 20px 90px;
+    margin-right: 35px;
 }
 
 div{
@@ -38,10 +30,9 @@ div{
 }
 p{
     Font-size: 14px;
-    padding: 10px;
 }
 
-.gee { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; }
 attribution a { color: hsl(228, 45%, 44%); }
  
  
@@ -53,18 +44,5 @@ li a:hover,
 li a:focus
 {
     color: blue;
-    background-color: gold;
-     
-}
-li a:visited{ color: red;}
-    /* mobile*/
-@media screen and (min-device-width:357px){
-li a:hover
-li a:focus
-{color:green;
-    background-color: gold;
-}
-    
-}
-
+    background-color: gold;}
     
